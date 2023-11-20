@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "923313210436",
+    "project_id": "fithere",
+    "storage_bucket": "fithere.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923313210436:android:117f6944217d631844a811",
+        "android_client_info": {
+          "package_name": "com.tarius.fithere"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgpuZqvgtqv9qgLkTOoANlHSkaFU6xDpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
