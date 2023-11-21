@@ -1,4 +1,5 @@
 import 'package:fithere/core/injector/injector.dart';
+import 'package:fithere/core/routes/route.dart';
 import 'package:fithere/presentation/blocs/home/home_bloc.dart';
 import 'package:fithere/presentation/screens/home/view/home_activities_view.dart';
 import 'package:fithere/presentation/screens/home/view/home_explore_view.dart';
@@ -74,7 +75,7 @@ class _HomeScreenState extends State<HomeScreen> {
               labelBehavior: NavigationDestinationLabelBehavior.alwaysHide,
               onDestinationSelected: (int index) {
                 if (index == 2) {
-                  Navigator.of(context).pushNamed('/add_activity');
+                  Navigator.of(context).pushNamed(Routes.addActivity);
                   return;
                 }
                 if ((_selectedIndex + 1 == index) ||
