@@ -10,7 +10,6 @@ class HomeLoadingEvent extends HomeEvent {}
 class HomeLoadedEvent extends HomeEvent {}
 
 class HomeErrorEvent extends HomeEvent {
-  final String message;
-
   HomeErrorEvent(this.message);
+  final String message;
 }
