@@ -1,4 +1,4 @@
-package com.example.fithere
+package com.tarius.fithere
 
 import io.flutter.embedding.android.FlutterActivity
 
